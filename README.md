@@ -34,8 +34,7 @@ install.packages("roroph")
 ## 🤝 Contributing
 Are you a Filipino R developer? If you have a package on GitHub or CRAN that serves the Philippine context, we invite you to be inducted.
 
-Open an Issue with your repository link.
+1.Open an Issue with your repository link.
 
-Submit a Pull Request to the packages.json file.
+2. Or submit a Pull Request to the packages.json file.
 
-*- Built with resilience for our 7,641 islands.*
