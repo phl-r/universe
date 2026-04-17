@@ -1,14 +1,15 @@
-# PHL-R Registry 🇵🇭
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/phl-r/universe/main/flag.svg" width="120" />
   <h1>PHL-R Registry</h1>
   <p><i>The Central Infrastructure for Philippine R Software</i></p>
 </div>
+
 ---
+
 ### The Decentralized Software Registry for the Philippine R Ecosystem
 
 The **PHL-R Registry** is a community-driven repository hosted on [R-Universe](https://r-universe.dev). Our mission is to consolidate, build, and distribute R packages developed by Filipino scientists and researchers, specifically those addressing the unique challenges of an archipelagic nation.
+
 ---
 
 ## 🏛️ Our Mission
@@ -33,8 +34,8 @@ install.packages("roroph")
 ## 🤝 Contributing
 Are you a Filipino R developer? If you have a package on GitHub or CRAN that serves the Philippine context, we invite you to be inducted.
 
-1. Open an Issue with your repository link.
+Open an Issue with your repository link.
 
-2. Or submit a Pull Request to the packages.json file.
+Submit a Pull Request to the packages.json file.
 
-*-Built with resilience for our 7,641 islands.*
+Built with resilience for our 7,641 islands.
