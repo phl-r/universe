@@ -5,11 +5,10 @@
 The **PHL-R Registry** is a community-driven repository hosted on [R-Universe](https://r-universe.dev). Our mission is to consolidate, build, and distribute R packages developed by Filipino scientists and researchers, specifically those addressing the unique challenges of an archipelagic nation.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/[phl-r]/universe/main/flag.svg" width="120" />
+  <img src="https://raw.githubusercontent.com/phl-r/universe/main/flag.svg" width="120" />
   <h1>PHL-R Registry</h1>
   <p><i>The Central Infrastructure for Philippine R Software</i></p>
 </div>
-
 ---
 
 ## 🏛️ Our Mission
