@@ -1,40 +1,24 @@
 <div align="center">
-  <img src="main/logo.png" width="120" />
-  <h1>Pinoy R Registry</h1>
+  <img src="logo.png" width="120" />
+  <h1>PinasR Registry</h1>
   <p><i>The Central Infrastructure for Philippine R Software</i></p>
 </div>
 
----
+## 📢 Thanks for you interest to contribute to #PinasR! 
+Let's let the R-Universe know about your work! By adding your package to our registry, you help build the collective packages of the Philippines.
 
-### The Decentralized Software Registry for the Philippine R Ecosystem
+To contribute, you just need to update the `packages.json` file in this repository. Follow these steps:
 
-The **PHL-R Registry** is a community-driven repository hosted on [R-Universe](https://r-universe.dev). Our mission is to consolidate, build, and distribute R packages developed by Filipino scientists and researchers, specifically those addressing the unique challenges of an archipelagic nation.
-
----
-
-## 🏛️ Our Mission
-We provide the open-source infrastructure for:
-* **Archipelagic Spatial Modeling:** R Packages like `roroph` and `ArchipelagoEngine` that account for maritime logistics.
-* **National Statistics:** Streamlining access to PSA and LGU-level data.
-* **Public Health:** Hosting foundational epidemiology tools built for the Philippine context.
-
-## 🚀 How to use
-To install packages from this registry, add the following to your R profile or session:
-
-```r
-options(repos = c(
-  phlr = "[https://phl-r.r-universe.dev](https://phl-r.r-universe.dev)",
-  CRAN = "[https://cloud.r-project.org](https://cloud.r-project.org)"
-))
+* **1.Fork this Repository:** Click the "Fork" button at the top right to create your own copy.
+* **2.Edit packages.json:** Add a new entry for your package. It should look like this:
 ```
-Then install as usual. For example:
+{
+  "package": "yourPackageName",
+  "url": "https://github.com/yourusername/yourPackageName"
+}
+# Make sure to add a comma , after the previous entry:-)
 ```
-install.packages("roroph")
-```
-## 🤝 Contributing
-Are you a Filipino R developer? If you have a package on GitHub or CRAN that serves the Philippine context, we invite you to be inducted.
+* **3. Submit a Pull Request:** Save your changes and open a Pull Request (PR) back to the main branch of `pinasr.r-universe.dev.`
+* **The Build:** Once the PR is merged, the PinasR bot will automatically detect your package, build the binaries for Windows, Mac, and Linux, and feature it on our official registry.
 
-1.Open an Issue with your repository link.
-
-2. Or submit a Pull Request to the packages.json file.
 
